@@ -11,9 +11,6 @@
 #module 'load miniconda3'
 #source activate iacpy3_2019
 
-# directories
-sdir=./
-
 # parameters
 startdate=20200207_00
 enddate=20200207_12 #20200208_00
@@ -30,7 +27,7 @@ while [ "${currdate}" != "${enddate}" ];do
 			    echo ''
 			    echo 'creating plot for' $date $var $lev $domain
 			    # run plotting script
-			    python ${sdir}/plot_map_echam_cosmo10km_5km_1km.py $currdate $var $lev $domain
+			    python plot_map_echam_cosmo10km_5km_1km.py $currdate $var $lev $domain
 		done
 	    done
 	done
