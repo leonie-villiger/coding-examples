@@ -12,7 +12,7 @@
 #source activate iacpy3_2019
 
 # directories
-sdir=/home/vleonie/eurec4a_analysis/cosmo_nesting/plot_map
+sdir=./
 
 # parameters
 startdate=20200207_00
